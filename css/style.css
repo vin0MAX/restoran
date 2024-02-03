@@ -1,0 +1,131 @@
+.container{
+    width: 1470;
+    padding: 0px;
+    margin: 0 auto;
+}
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+.navigation-list{
+    display: flex;
+    align-items: center;
+}
+.navigation-logo{
+    margin-left: 165px;
+    margin-right: 265px;
+}
+.navigation-link{
+    align-items: center;
+    padding-left: 20px;
+
+}
+.header{
+    background-image: url(/img/bg.jpg);
+    height: 100vh;
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.navigation{
+    padding-top: 50px;
+    display: flex;
+}
+.navigation-link{
+    color: #fff;
+    font-size: 14px;
+    transition: color 0.3s linear;
+}
+.navigation-link:hover{
+    color: red;
+}
+.header-img{
+    padding-left: 41px;
+    padding-right: 21px;
+}
+.phone-img{
+    padding-left: 31px;
+    padding-right: 8px;
+    padding-bottom: 1px;
+}
+.header-link{
+    color: #fff;
+    font-size: 18px;
+}
+.header-link:hover{
+    color: red;
+    transition: color 0.3s linear;
+}
+.headert-text{
+    font-weight: 400;
+    font-size: 14px;
+    color: #fff;
+    margin-left: 34px;
+}
+.header-wrap{
+    display: flex;
+    justify-content: center;
+}
+.header-btn{
+    margin-left:49px; 
+    width: 170px;
+    height: 47px;
+    color: #fff;
+    border: 0;
+    background-color: #ff7400;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+    transition: background-color 0.3s linear;
+}
+.header-btn:hover{
+    background-color:#cc6e22;
+}
+.header-var{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.restoran-item{
+    color: #D67E35;
+    font-family: "Tinos", serif;
+    text-align: center;
+}
+.restoran-caption{
+    font-weight: 400;
+    margin-bottom: 12px;
+    font-size: 80px;
+}
+.restoran-text{
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    font-family: "Cookie", sans-serif;
+}
+.restoran-title{
+    font-weight: 400;
+    font-size: 50px;
+}
+.restoran-list{
+    margin-left: 199px;
+    margin-top: 204px;
+    display: flex;
+}
+.div{
+    display: flex;
+    align-items: center;
+}
+.restoran-btn{
+    font-family: "Open Sans", sans-serif;
+    margin-top:24px;
+    width: 137px;
+    height: 47px;
+    background-color: #FF7400;
+    border: 0;
+    font-weight: 600;
+    font-size: 14px;
+    color: #fff;
+}
+.restoran-btn:hover{
+    background-color: #e07218;
+    transition: background-color 0.3s linear;
+}
